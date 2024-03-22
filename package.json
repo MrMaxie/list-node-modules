@@ -1,0 +1,35 @@
+{
+  "name": "@mrmaxie/list-node-modules",
+  "version": "1.0.0",
+  "description": "Enables listing of all installed dependencies in selected directory, including nested ones, in Node projects",
+  "main": "./dist/main.js",
+  "exports": {
+    ".": {
+      "require": "./dist/main.js",
+      "import": "./dist/main.mjs"
+    }
+  },
+  "types": "./dist/main.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "test": "vitest"
+  },
+  "author": "MrMaxie",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "@types/node": "^20.11.30",
+    "tsup": "^8.0.2",
+    "typescript": "^5.4.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MrMaxie/list-node-modules.git"
+  },
+  "homepage": "https://github.com/MrMaxie/list-node-modules",
+  "dependencies": {
+    "glob": "^10.3.10"
+  }
+}
