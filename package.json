@@ -1,5 +1,5 @@
 {
-  "name": "@mrmaxie/list-node-modules",
+  "name": "list-node-modules",
   "version": "1.0.0",
   "description": "Enables listing of all installed dependencies in selected directory, including nested ones, in Node projects",
   "main": "./dist/main.js",

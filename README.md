@@ -1,17 +1,17 @@
-# @mrmaxie/list-node-modules
+# list-node-modules
 
 Enables listing of all installed dependencies in selected directory, including nested ones, in Node projects
 
 ## Installation
 
 ```bash
-npm install @mrmaxie/list-node-modules
+npm install list-node-modules
 ```
 
 ## Usage
 
 ```ts
-import { listNodeModules } from '@mrmaxie/list-node-modules';
+import { listNodeModules } from 'list-node-modules';
 
 // Then, you can call listNodeModules with an optional Options object:
 
@@ -42,7 +42,7 @@ List all node modules packages from current working directory `node_modules` and
 
 ```javascript
 const modules = listNodeModules();
-console.log(modules); // ['@mrmaxie/list-node-modules', 'glob', ...] and so on
+console.log(modules); // ['list-node-modules', 'glob', ...] and so on
 ```
 
 List node modules in a specified directory, excluding specific modules:
